@@ -1,5 +1,5 @@
-var test = require("tape")
 var config = require("../")
+var test = require("tape")
 
 test("test basic properties of config", function (t) {
   t.ok(isObject(config.ecmaFeatures), "features is object")
