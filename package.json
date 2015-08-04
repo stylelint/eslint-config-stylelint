@@ -1,0 +1,29 @@
+{
+  "name": "eslint-config-stylelint",
+  "version": "0.0.0",
+  "description": "stylelint org's shareable config for eslint",
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Stylelint",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stylelint/eslint-config-stylelint.git"
+  },
+  "main": "index.js",
+  "files": [
+    "eslintrc.json",
+    "index.js"
+  ],
+  "devDependencies": {
+    "eslint": "^1.0.0",
+    "tape": "^4.0.2"
+  },
+  "scripts": {
+    "lint": "eslint -c eslintrc.json .",
+    "tape": "tape \"__tests__/**/*.js\"",
+    "test": "npm run lint && npm run tape"
+  }
+}
