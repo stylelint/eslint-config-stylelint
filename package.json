@@ -12,13 +12,15 @@
     "type": "git",
     "url": "https://github.com/stylelint/eslint-config-stylelint.git"
   },
+  "homepage": "https://github.com/stylelint/eslint-config-stylelint",
+  "bugs": "https://github.com/stylelint/eslint-config-stylelint/issues",
   "main": "index.js",
   "files": [
     "eslintrc.json",
     "index.js"
   ],
   "devDependencies": {
-    "eslint": "^1.0.0",
+    "eslint": "^2.0.0",
     "tape": "^4.0.2"
   },
   "scripts": {

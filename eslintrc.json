@@ -1,7 +1,7 @@
 {
   "extends": "eslint:recommended",
-  "ecmaFeatures": {
-    "modules": true
+  "parserOptions": {
+    "sourceType": "module"
   },
   "env": {
     "es6": true,
@@ -16,15 +16,15 @@
     "indent": [ 2, 2, {
       "SwitchCase": 1
     } ],
-    "quotes": [ 2, "double" ],
+    "keyword-spacing": 2,
     "no-console": 0,
     "no-multiple-empty-lines": [ 2, {
       "max": 1
     } ],
     "no-use-before-define": [ 2, "nofunc" ],
     "object-curly-spacing": [2, "always"],
+    "quotes": [ 2, "double" ],
     "semi": [ 2, "never" ],
-    "space-after-keywords": [ 2, "always" ],
     "space-before-blocks": [ 2, "always" ],
     "space-before-function-paren": [ 2, {
       "anonymous": "always",
