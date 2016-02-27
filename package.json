@@ -21,11 +21,13 @@
   ],
   "devDependencies": {
     "eslint": "^2.2.0",
+    "npmpub": "^3.0.3",
     "tape": "^4.4.0"
   },
   "scripts": {
     "lint": "eslint -c eslintrc.json .",
     "tape": "tape \"__tests__/**/*.js\"",
-    "test": "npm run lint && npm run tape"
+    "test": "npm run lint && npm run tape",
+    "release": "npmpub"
   }
 }
