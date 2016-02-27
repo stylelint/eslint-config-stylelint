@@ -1,7 +1,8 @@
 # HEAD
 
-* Updated for Eslint 2.x compatability
+* Added eslint `2.0` compatibility.
+* Removed eslint `1.0` compatibility.
 
 # 0.1.0
 
-* Initial release
+* Initial release.

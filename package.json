@@ -20,8 +20,8 @@
     "index.js"
   ],
   "devDependencies": {
-    "eslint": "^2.0.0",
-    "tape": "^4.0.2"
+    "eslint": "^2.2.0",
+    "tape": "^4.4.0"
   },
   "scripts": {
     "lint": "eslint -c eslintrc.json .",
