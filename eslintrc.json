@@ -11,17 +11,24 @@
     "array-bracket-spacing": [2, "always", {
       "singleValue": false
     } ],
+    "block-spacing": 2,
     "comma-dangle": [ 2, "always-multiline" ],
+    "comma-spacing": 2,
     "comma-style": [ 2, "last" ],
+    "eol-last": 2,
     "indent": [ 2, 2, {
       "SwitchCase": 1
     } ],
     "keyword-spacing": 2,
+    "linebreak-style": 2,
     "no-console": 2,
+    "no-mixed-spaces-and-tabs": 2,
     "no-multiple-empty-lines": [ 2, {
       "max": 1
     } ],
+    "no-trailing-spaces": 2,
     "no-use-before-define": [ 2, "nofunc" ],
+    "no-whitespace-before-property": 2,
     "object-curly-spacing": [2, "always"],
     "quotes": [ 2, "double" ],
     "semi": [ 2, "never" ],
@@ -31,6 +38,8 @@
       "named": "never"
     } ],
     "space-in-parens": [ 2, "never" ],
-    "spaced-comment": [ 2, "always" ]
+    "space-infix-ops": 2,
+    "space-unary-ops": 2,
+    "spaced-comment": [ 2, "always" ]    
   }
 }
