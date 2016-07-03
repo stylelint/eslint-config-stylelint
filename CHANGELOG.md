@@ -1,3 +1,8 @@
+# Head
+
+* Added: eslint `3.0.0` compatibility.
+* Removed: eslint `2.0.0` compatibility.
+
 # 2.0.0
 
 * Added: rules for consistent whitespace.
