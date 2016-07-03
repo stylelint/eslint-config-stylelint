@@ -1,4 +1,4 @@
-# Head
+# 3.0.0
 
 * Added: eslint `3.0.0` compatibility.
 * Removed: eslint `2.0.0` compatibility.
