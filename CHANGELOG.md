@@ -1,3 +1,7 @@
+# HEAD
+
+* Added: `no-multi-spaces` rule.
+
 # 3.0.0
 
 * Added: eslint `3.0.0` compatibility.
