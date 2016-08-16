@@ -1,4 +1,4 @@
-# HEAD
+# 4.0.0
 
 * Added: `no-multi-spaces` rule.
 
