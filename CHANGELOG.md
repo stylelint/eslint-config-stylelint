@@ -1,3 +1,7 @@
+# 5.0.0
+
+* Added: `padded-blocks` rule.
+
 # 4.0.0
 
 * Added: `no-multi-spaces` rule.
