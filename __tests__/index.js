@@ -1,14 +1,12 @@
 var config = require("../")
-var test = require("tape")
 
-test("test basic properties of config", function (t) {
-  t.ok(isObject(config.parserOptions), "features is object")
-  t.ok(isObject(config.env), "env is object")
-  t.ok(isObject(config.rules), "rules is object")
-  t.end()
+it("Test basic properties of config", function () {
+  expect(isObject(config.parserOptions)).toBeTruthy()
+  expect(isObject(config.env)).toBeTruthy()
+  expect(isObject(config.rules)).toBeTruthy()
 })
 
-test("load config in eslint to validate all rule syntax is correct", function (t) {
+it("Load config in ESLint to validate all rule syntax is correct", function () {
   var CLIEngine = require("eslint").CLIEngine
 
   var cli = new CLIEngine({
@@ -16,8 +14,7 @@ test("load config in eslint to validate all rule syntax is correct", function (t
     configFile: "eslintrc.json",
   })
 
-  t.ok(cli.executeOnText("var foo\n"), "can executeOnText")
-  t.end()
+  expect(cli.executeOnText("var foo\n")).toBeTruthy()
 })
 
 function isObject(obj) {
