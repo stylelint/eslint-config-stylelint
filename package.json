@@ -24,13 +24,14 @@
   },
   "devDependencies": {
     "eslint": "^3.0.0",
-    "npmpub": "^3.0.3",
-    "tape": "^4.4.0"
+    "jest": "^17.0.3",
+    "npmpub": "^3.0.3"
   },
   "scripts": {
+    "jest": "jest",
     "lint": "eslint -c eslintrc.json .",
-    "tape": "tape \"__tests__/**/*.js\"",
-    "test": "npm run lint && npm run tape",
-    "release": "npmpub"
+    "release": "npmpub",
+    "test": "npm run lint && npm run jest",
+    "watch": "jest --watch"
   }
 }
