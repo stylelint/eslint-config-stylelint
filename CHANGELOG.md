@@ -1,3 +1,8 @@
+# Head
+
+-   Added: rules and parse options for `node@4` compatibility.
+-   Removed: `spaced-comment` rules to support flow.
+
 # 5.0.0
 
 -   Added: `padded-blocks` rule.
