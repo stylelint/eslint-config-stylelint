@@ -1,4 +1,4 @@
-# Head
+# 6.0.0
 
 -   Added: rules and parse options for `node@4` compatibility.
 -   Removed: `spaced-comment` rules to support flow.
