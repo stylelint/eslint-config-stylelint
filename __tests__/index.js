@@ -1,4 +1,6 @@
-var config = require("../")
+"use strict"
+
+const config = require("../")
 
 it("test basic properties of config", function () {
   expect(isObject(config.parserOptions)).toBeTruthy()
@@ -7,9 +9,9 @@ it("test basic properties of config", function () {
 })
 
 it("load config in ESLint to validate all rule syntax is correct", function () {
-  var CLIEngine = require("eslint").CLIEngine
+  const CLIEngine = require("eslint").CLIEngine
 
-  var cli = new CLIEngine({
+  const cli = new CLIEngine({
     useEslintrc: false,
     configFile: "eslintrc.json",
   })
