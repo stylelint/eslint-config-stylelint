@@ -6,7 +6,7 @@
     "eslint",
     "eslintconfig"
   ],
-  "author": "Stylelint",
+  "author": "stylelint",
   "license": "MIT",
   "repository": {
     "type": "git",
