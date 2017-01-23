@@ -9,9 +9,7 @@
     "node": true
   },
   "rules": {
-    "array-bracket-spacing": [2, "always", {
-      "singleValue": false
-    } ],
+    "array-bracket-spacing": [ 2, "never" ],
     "arrow-spacing": 2,
     "block-spacing": 2,
     "comma-dangle": [ 2, "always-multiline" ],
