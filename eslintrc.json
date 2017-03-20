@@ -36,7 +36,9 @@
     "object-shorthand": 2,
     "padded-blocks": [2, "never"],
     "prefer-const": 2,
-    "quotes": [ 2, "double" ],
+    "quotes": [ 2, "double", {
+      "allowTemplateLiterals": true
+    } ],
     "semi": [ 2, "never" ],
     "space-before-blocks": [ 2, "always" ],
     "space-before-function-paren": [ 2, {
