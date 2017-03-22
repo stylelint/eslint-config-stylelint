@@ -22,6 +22,12 @@
     } ],
     "keyword-spacing": 2,
     "linebreak-style": 2,
+    "max-len": [ 2, 120, {
+      "ignoreComments": true,
+      "ignoreStrings": true,
+      "ignoreTemplateLiterals": true,
+      "ignoreUrls": true
+    } ],
     "no-console": 2,
     "no-mixed-spaces-and-tabs": 2,
     "no-multi-spaces": 2,
