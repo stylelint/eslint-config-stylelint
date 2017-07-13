@@ -1,6 +1,7 @@
-# HEAD
+# Head
 
-* Added: eslint `4.0.0` compatibility.
+-   Removed: stylistic rules.
+-   Added: eslint `4.0.0` compatibility.
 
 # 6.0.0
 
