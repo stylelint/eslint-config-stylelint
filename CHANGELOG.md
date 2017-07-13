@@ -1,4 +1,4 @@
-# Head
+# 7.0.0
 
 -   Removed: stylistic rules.
 -   Added: eslint `4.0.0` compatibility.
