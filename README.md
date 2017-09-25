@@ -1,4 +1,6 @@
 # eslint-config-stylelint
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/stylelint/eslint-config-stylelint.svg)](https://greenkeeper.io/)
 [![NPM version](http://img.shields.io/npm/v/eslint-config-stylelint.svg)](https://www.npmjs.org/package/eslint-config-stylelint) [![Travis Build Status](https://img.shields.io/travis/stylelint/eslint-config-stylelint/master.svg?label=build)](https://travis-ci.org/stylelint/eslint-config-stylelint)
 
 > stylelint org's shareable config for eslint.
