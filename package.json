@@ -35,6 +35,7 @@
     "watch": "jest --watch"
   },
   "dependencies": {
+    "eslint-plugin-node": "^5.2.1",
     "eslint-plugin-sort-requires": "^2.1.0"
   }
 }
