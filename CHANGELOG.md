@@ -1,3 +1,7 @@
+# 8.0.0
+
+-   Added: `eslint-plugin-node` ESLint plugin using `node/recommended`  rules.
+
 # 7.0.0
 
 -   Removed: stylistic rules.
