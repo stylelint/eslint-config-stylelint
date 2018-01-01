@@ -20,7 +20,7 @@
     "no-use-before-define": ["error", "nofunc"],
     "no-var": "error",
     "object-shorthand": "error",
-    "one-var": ["error", "always"],
+    "one-var": ["error", "never"],
     "prefer-const": "error",
     "sort-requires/sort-requires": "error",
     "strict": ["error", "global"]
