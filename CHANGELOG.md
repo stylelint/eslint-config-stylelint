@@ -1,4 +1,4 @@
-# HEAD
+# 8.1.0
 
 -   Added: `one-var` rule.
 
