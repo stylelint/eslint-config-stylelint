@@ -1,3 +1,7 @@
+# HEAD
+
+-   Added: `one-var` rule.
+
 # 8.0.0
 
 -   Added: `eslint-plugin-node` ESLint plugin using `node/recommended`  rules.
