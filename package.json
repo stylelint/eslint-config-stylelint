@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "eslint": "^5.0.0",
-    "jest": "^22.0.0",
+    "jest": "^23.4.1",
     "npmpub": "^4.0.1"
   },
   "scripts": {
