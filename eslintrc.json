@@ -1,14 +1,14 @@
 {
   "extends": [
     "eslint:recommended",
-    "plugin:node/recommended"
+    "plugin:node/recommended",
+    "plugin:jest/recommended"
   ],
   "parserOptions": {
     "ecmaVersion": 6
   },
   "env": {
     "es6": true,
-    "jest": true,
     "node": true
   },
   "plugins": [
@@ -23,6 +23,7 @@
     "one-var": ["error", "never"],
     "prefer-const": "error",
     "sort-requires/sort-requires": "error",
-    "strict": ["error", "global"]
+    "strict": ["error", "global"],
+    "jest/no-identical-title": "warn"
   }
 }
