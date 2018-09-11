@@ -1,3 +1,8 @@
+
+# 8.2.0
+
+-   Added: `eslint-plugin-jest` ESLint plugin.
+
 # 8.1.0
 
 -   Added: `one-var` rule.
