@@ -24,6 +24,6 @@
     "prefer-const": "error",
     "sort-requires/sort-requires": "error",
     "strict": ["error", "global"],
-    "jest/no-identical-title": "warn"
+    "jest/prefer-to-have-length": "error"
   }
 }
