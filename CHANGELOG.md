@@ -1,4 +1,8 @@
 
+# 8.3.0
+
+-   Changed: `eslint-plugin-jest` rules to `error`
+
 # 8.2.0
 
 -   Added: `eslint-plugin-jest` ESLint plugin.
