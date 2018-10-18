@@ -16,7 +16,7 @@
   "bugs": "https://github.com/stylelint/eslint-config-stylelint/issues",
   "main": "index.js",
   "files": [
-    "eslintrc.json",
+    "eslintrc.js",
     "index.js"
   ],
   "engines": {
@@ -30,7 +30,7 @@
   "scripts": {
     "dry-release": "npmpub  --dry --verbose",
     "jest": "jest",
-    "lint": "eslint -c eslintrc.json .",
+    "lint": "eslint -c eslintrc.js .",
     "release": "npmpub",
     "test": "npm run lint && npm run jest",
     "watch": "jest --watch"

@@ -13,7 +13,7 @@ it("load config in ESLint to validate all rule syntax is correct", function () {
 
   const cli = new CLIEngine({
     useEslintrc: false,
-    configFile: "eslintrc.json",
+    configFile: "eslintrc.js",
   })
 
   expect(cli.executeOnText("var foo\n")).toBeTruthy()
