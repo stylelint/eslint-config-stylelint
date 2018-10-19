@@ -23,10 +23,6 @@ module.exports = {
     "no-var": "error",
     "object-shorthand": "error",
     "one-var": ["error", "never"],
-    "prefer-const": "error",
-    "sort-requires/sort-requires": "error",
-    "strict": ["error", "global"],
-    "jest/prefer-to-have-length": "error",
     "padding-line-between-statements": [
       "error",
       // Require blank lines after all directive prologues (e. g. 'use strict')
@@ -70,6 +66,10 @@ module.exports = {
         "prev": ["for", "function", "if", "switch", "try"],
         "next": "*"
       }
-    ]
+    ],
+    "prefer-const": "error",
+    "sort-requires/sort-requires": "error",
+    "strict": ["error", "global"],
+    "jest/prefer-to-have-length": "error"
   }
 };
