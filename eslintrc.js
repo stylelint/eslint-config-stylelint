@@ -70,6 +70,11 @@ module.exports = {
     "prefer-const": "error",
     "sort-requires/sort-requires": "error",
     "strict": ["error", "global"],
-    "jest/prefer-to-have-length": "error"
+    "jest/no-alias-methods": "error",
+    "jest/prefer-to-be-null": "error",
+    "jest/prefer-to-be-undefined": "error",
+    "jest/prefer-to-contain": "error",
+    "jest/prefer-to-have-length": "error",
+    "jest/valid-expect-in-promise": "error",
   }
 };
