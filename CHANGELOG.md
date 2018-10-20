@@ -1,5 +1,10 @@
 # 9.0.0
 
+-   Added: `jest/no-alias-methods` Jest rule. #56
+-   Added: `jest/prefer-to-be-null` Jest rule. #56
+-   Added: `jest/prefer-to-be-undefined` Jest rule. #56
+-   Added: `jest/prefer-to-contain` Jest rule. #56
+-   Added: `jest/valid-expect-in-promise` Jest rule. #56
 -   Added: `padding-line-between-statements` rule. #55
 
 # 8.3.0
