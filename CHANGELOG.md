@@ -1,3 +1,6 @@
+# 9.0.0
+
+-   Added: `padding-line-between-statements` rule. #55
 
 # 8.3.0
 
