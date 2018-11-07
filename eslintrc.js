@@ -71,8 +71,5 @@ module.exports = {
     "prefer-const": "error",
     "sort-requires/sort-requires": "error",
     "strict": ["error", "global"],
-    "jest/no-alias-methods": "error",
-    "jest/no-disabled-tests": "error",
-    "jest/no-jasmine-globals": "error",
   }
 };
