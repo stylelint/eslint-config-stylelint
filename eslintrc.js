@@ -4,7 +4,8 @@ module.exports = {
   "extends": [
     "eslint:recommended",
     "plugin:node/recommended",
-    "plugin:jest/recommended"
+    "plugin:jest/recommended",
+    "plugin:jest/style",
   ],
   "parserOptions": {
     "ecmaVersion": 6
@@ -71,10 +72,7 @@ module.exports = {
     "sort-requires/sort-requires": "error",
     "strict": ["error", "global"],
     "jest/no-alias-methods": "error",
-    "jest/prefer-to-be-null": "error",
-    "jest/prefer-to-be-undefined": "error",
-    "jest/prefer-to-contain": "error",
-    "jest/prefer-to-have-length": "error",
-    "jest/valid-expect-in-promise": "error",
+    "jest/no-disabled-tests": "error",
+    "jest/no-jasmine-globals": "error",
   }
 };
