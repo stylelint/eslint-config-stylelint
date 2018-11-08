@@ -1,6 +1,6 @@
 # 10.0.0
 
--   Added: `eslint-plugin-jest` ESLint plugin `node/style`  rules.
+-   Added: `eslint-plugin-jest` ESLint plugin `jest/style`  rules.
 
 # 9.0.0
 
