@@ -1,3 +1,7 @@
+# 10.0.0
+
+-   Added: `eslint-plugin-jest` ESLint plugin `node/style`  rules.
+
 # 9.0.0
 
 -   Added: `jest/no-alias-methods` Jest rule. #56
