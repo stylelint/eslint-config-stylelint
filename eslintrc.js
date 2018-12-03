@@ -3,6 +3,7 @@
 module.exports = {
   "extends": [
     "eslint:recommended",
+    "plugin:eslint-comments/recommended",
     "plugin:node/recommended",
     "plugin:jest/recommended",
     "plugin:jest/style",
@@ -71,5 +72,6 @@ module.exports = {
     "prefer-const": "error",
     "sort-requires/sort-requires": "error",
     "strict": ["error", "global"],
+    "eslint-comments/no-unused-disable": "error",
   }
 };
