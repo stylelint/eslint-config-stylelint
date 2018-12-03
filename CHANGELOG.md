@@ -1,3 +1,7 @@
+# 11.0.0
+
+-   Added: `eslint-plugin-eslint-comments` ESLint plugin using `eslint-comments/recommended`  rules.
+
 # 10.0.0
 
 -   Added: `eslint-plugin-jest` ESLint plugin `jest/style`  rules.
