@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-stylelint",
-  "version": "10.0.0",
+  "version": "11.0.0",
   "description": "stylelint org's shareable config for eslint",
   "keywords": [
     "eslint",
