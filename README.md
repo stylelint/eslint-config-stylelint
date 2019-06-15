@@ -1,5 +1,5 @@
 # eslint-config-stylelint
-[![NPM version](http://img.shields.io/npm/v/eslint-config-stylelint.svg)](https://www.npmjs.org/package/eslint-config-stylelint) [![Travis Build Status](https://img.shields.io/travis/stylelint/eslint-config-stylelint/master.svg?label=build)](https://travis-ci.org/stylelint/eslint-config-stylelint)
+[![NPM version](http://img.shields.io/npm/v/eslint-config-stylelint.svg)](https://www.npmjs.org/package/eslint-config-stylelint) [![Build Status](https://travis-ci.com/stylelint/eslint-config-stylelint.svg?branch=master)](https://travis-ci.com/stylelint/eslint-config-stylelint)
 
 > stylelint org's shareable config for eslint.
 
