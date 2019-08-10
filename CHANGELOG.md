@@ -1,3 +1,7 @@
+# 11.1.0
+
+-   Fixed: Add the `no-console` rule that was removed from `eslint/recommended` in ESLint v6.
+
 # 11.0.0
 
 -   Added: `eslint-plugin-eslint-comments` ESLint plugin using `eslint-comments/recommended`  rules.

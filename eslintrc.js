@@ -21,6 +21,7 @@ module.exports = {
   ],
   "rules": {
     "eqeqeq": "error",
+    "no-console": "error",
     "no-use-before-define": ["error", "nofunc"],
     "no-var": "error",
     "object-shorthand": "error",
