@@ -2,13 +2,13 @@
 
 const config = require("../")
 
-it("test basic properties of config", function () {
+it("test basic properties of config", () => {
   expect(isObject(config.parserOptions)).toBeTruthy()
   expect(isObject(config.env)).toBeTruthy()
   expect(isObject(config.rules)).toBeTruthy()
 })
 
-it("load config in ESLint to validate all rule syntax is correct", function () {
+it("load config in ESLint to validate all rule syntax is correct", () => {
   const CLIEngine = require("eslint").CLIEngine
 
   const cli = new CLIEngine({
