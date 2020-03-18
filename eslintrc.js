@@ -70,7 +70,6 @@ module.exports = {
         "next": "*"
       }
     ],
-    "prefer-const": "error",
     "sort-requires/sort-requires": "error",
     "strict": ["error", "global"],
     "eslint-comments/no-unused-disable": "error",
