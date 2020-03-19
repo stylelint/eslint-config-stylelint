@@ -9,7 +9,7 @@ module.exports = {
     "plugin:jest/style",
   ],
   "parserOptions": {
-    "ecmaVersion": 6
+    "ecmaVersion": 2019
   },
   "env": {
     "es6": true,
@@ -20,12 +20,40 @@ module.exports = {
     "sort-requires"
   ],
   "rules": {
+    "array-callback-return": "error",
+    "dot-notation": "error",
     "eqeqeq": "error",
+    "eslint-comments/no-unused-disable": "error",
+    "func-name-matching": "error",
+    "guard-for-in": "error",
+    "no-confusing-arrow": [
+      "error",
+      {
+        "allowParens": false
+      }
+    ],
     "no-console": "error",
+    "no-else-return": [
+      "error",
+      {
+        "allowElseIf": false
+      }
+    ],
+    "no-implicit-coercion": "error",
+    "no-lonely-if": "error",
+    "no-unneeded-ternary": "error",
     "no-use-before-define": ["error", "nofunc"],
+    "no-useless-return": "error",
+    "no-unused-vars": [
+      "error",
+      {
+        "ignoreRestSiblings": true
+      }
+    ],
     "no-var": "error",
     "object-shorthand": "error",
     "one-var": ["error", "never"],
+    "operator-assignment": "error",
     "padding-line-between-statements": [
       "error",
       // Require blank lines after all directive prologues (e. g. 'use strict')
@@ -70,8 +98,13 @@ module.exports = {
         "next": "*"
       }
     ],
+    "prefer-arrow-callback": "error",
+    "prefer-object-spread": "error",
+    "prefer-regex-literals": "error",
+    "prefer-rest-params": "error",
+    "prefer-spread": "error",
+    "prefer-template": "error",
     "sort-requires/sort-requires": "error",
     "strict": ["error", "global"],
-    "eslint-comments/no-unused-disable": "error",
   }
 };
