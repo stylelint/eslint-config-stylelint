@@ -7,6 +7,7 @@ module.exports = {
     "plugin:node/recommended",
     "plugin:jest/recommended",
     "plugin:jest/style",
+    "prettier"
   ],
   "parserOptions": {
     "ecmaVersion": 2019
