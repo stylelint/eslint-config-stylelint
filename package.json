@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-stylelint",
+  "name": "@stylelint/eslint-config",
   "version": "11.1.0",
   "description": "stylelint org's shareable config for eslint",
   "keywords": [
@@ -8,16 +8,10 @@
   ],
   "author": "stylelint",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/stylelint/eslint-config-stylelint.git"
-  },
-  "homepage": "https://github.com/stylelint/eslint-config-stylelint",
-  "bugs": "https://github.com/stylelint/eslint-config-stylelint/issues",
+  "repository": "stylelint/eslint-config",
   "main": "index.js",
   "files": [
-    "eslintrc.js",
-    "index.js"
+    "eslintrc.js"
   ],
   "engines": {
     "node": ">=10.0.0"
@@ -39,5 +33,8 @@
     "eslint-plugin-jest": "^23.8.2",
     "eslint-plugin-node": "^11.0.0",
     "eslint-plugin-sort-requires": "^2.1.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

@@ -4,17 +4,45 @@ on:
   push:
     branches:
       - master
-      - 'dependabot/**'
+      - "dependabot/**"
   pull_request:
     branches:
-      - '**'
+      - "**"
 
 env:
   CI: true
 
 jobs:
-  run:
-    name: Node ${{ matrix.node }}
+  lint:
+    name: Lint on Node.js ${{ matrix.node }} and ${{ matrix.os }}
+
+    runs-on: ${{ matrix.os }}
+
+    strategy:
+      matrix:
+        node: [12]
+        os: [ubuntu-latest]
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Use Node.js ${{ matrix.node }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node }}
+
+      - name: Install latest npm
+        run: npm install --global npm@latest
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Lint
+        run: npm run lint
+
+  test:
+    name: Test on Node.js ${{ matrix.node }}
+
     runs-on: ubuntu-latest
 
     strategy:
@@ -23,29 +51,18 @@ jobs:
         node: [10, 12]
 
     steps:
-      - name: Clone repository
-        uses: actions/checkout@v2
+      - uses: actions/checkout@v2
 
-      - name: Set up Node.js
+      - name: Use Node.js ${{ matrix.node }}
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node }}
 
-      - name: Set up npm cache
-        uses: actions/cache@v1
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('package.json') }}-${{ hashFiles('.github/workflows/nodejs.yml') }}
-          restore-keys: |
-            ${{ runner.OS }}-node-${{ env.cache-name }}-
-            ${{ runner.OS }}-node-
-            ${{ runner.OS }}-
-
       - name: Install latest npm
         run: npm install --global npm@latest
 
-      - name: Install npm dependencies
-        run: npm install
+      - name: Install dependencies
+        run: npm ci
 
-      - name: Run tests
+      - name: Test
         run: npm test
