@@ -1,3 +1,3 @@
-"use strict"
+"use strict";
 
-module.exports = require("./eslintrc.js")
+module.exports = require("./.eslintrc.js");

@@ -1,72 +1,83 @@
-# 11.1.0
+# Changelog
 
--   Fixed: Add the `no-console` rule that was removed from `eslint/recommended` in ESLint v6.
+## 12.0.0
 
-# 11.0.0
+- Removed: `prefer-const`.
+- Changed: package renamed `@stylelint/eslint-config` from `eslint-config-stylelint`.
+- Changed: `ecmaVersion` to `2019`.
+- Changed: `eqeqeq` rule to `smart`.
+- Added: new rules.
+- Added: `eslint-config-prettier`.
 
--   Added: `eslint-plugin-eslint-comments` ESLint plugin using `eslint-comments/recommended`  rules.
+## 11.1.0
 
-# 10.0.0
+- Fixed: Add the `no-console` rule that was removed from `eslint/recommended` in ESLint v6.
 
--   Added: `eslint-plugin-jest` ESLint plugin `jest/style`  rules.
+## 11.0.0
 
-# 9.0.0
+- Added: `eslint-plugin-eslint-comments` ESLint plugin using `eslint-comments/recommended` rules.
 
--   Added: `jest/no-alias-methods` Jest rule. #56
--   Added: `jest/prefer-to-be-null` Jest rule. #56
--   Added: `jest/prefer-to-be-undefined` Jest rule. #56
--   Added: `jest/prefer-to-contain` Jest rule. #56
--   Added: `jest/valid-expect-in-promise` Jest rule. #56
--   Added: `padding-line-between-statements` rule. #55
+## 10.0.0
 
-# 8.3.0
+- Added: `eslint-plugin-jest` ESLint plugin `jest/style` rules.
 
--   Changed: `eslint-plugin-jest` rules to `error`
+## 9.0.0
 
-# 8.2.0
+- Added: `jest/no-alias-methods` Jest rule. #56
+- Added: `jest/prefer-to-be-null` Jest rule. #56
+- Added: `jest/prefer-to-be-undefined` Jest rule. #56
+- Added: `jest/prefer-to-contain` Jest rule. #56
+- Added: `jest/valid-expect-in-promise` Jest rule. #56
+- Added: `padding-line-between-statements` rule. #55
 
--   Added: `eslint-plugin-jest` ESLint plugin.
+## 8.3.0
 
-# 8.1.0
+- Changed: `eslint-plugin-jest` rules to `error`
 
--   Added: `one-var` rule.
+## 8.2.0
 
-# 8.0.0
+- Added: `eslint-plugin-jest` ESLint plugin.
 
--   Added: `eslint-plugin-node` ESLint plugin using `node/recommended`  rules.
+## 8.1.0
 
-# 7.0.0
+- Added: `one-var` rule.
 
--   Removed: stylistic rules.
--   Added: eslint `4.0.0` compatibility.
+## 8.0.0
 
-# 6.0.0
+- Added: `eslint-plugin-node` ESLint plugin using `node/recommended` rules.
 
--   Added: rules and parse options for `node@4` compatibility.
--   Removed: `spaced-comment` rules to support flow.
+## 7.0.0
 
-# 5.0.0
+- Removed: stylistic rules.
+- Added: eslint `4.0.0` compatibility.
 
--   Added: `padded-blocks` rule.
+## 6.0.0
 
-# 4.0.0
+- Added: rules and parse options for `node@4` compatibility.
+- Removed: `spaced-comment` rules to support flow.
 
--   Added: `no-multi-spaces` rule.
+## 5.0.0
 
-# 3.0.0
+- Added: `padded-blocks` rule.
 
--   Added: eslint `3.0.0` compatibility.
--   Removed: eslint `2.0.0` compatibility.
+## 4.0.0
 
-# 2.0.0
+- Added: `no-multi-spaces` rule.
 
--   Added: rules for consistent whitespace.
+## 3.0.0
 
-# 1.0.0
+- Added: eslint `3.0.0` compatibility.
+- Removed: eslint `2.0.0` compatibility.
 
--   Added: eslint `2.0` compatibility.
--   Removed: eslint `1.0` compatibility.
+## 2.0.0
 
-# 0.1.0
+- Added: rules for consistent whitespace.
 
--   Initial release.
+## 1.0.0
+
+- Added: eslint `2.0` compatibility.
+- Removed: eslint `1.0` compatibility.
+
+## 0.1.0
+
+- Initial release.
