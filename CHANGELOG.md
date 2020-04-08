@@ -3,7 +3,6 @@
 ## 12.0.0
 
 - Removed: `prefer-const`.
-- Changed: package renamed `@stylelint/eslint-config` from `eslint-config-stylelint`.
 - Changed: `ecmaVersion` to `2019`.
 - Changed: `eqeqeq` rule to `smart`.
 - Added: new rules.

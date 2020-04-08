@@ -1,6 +1,6 @@
 {
-  "name": "@stylelint/eslint-config",
-  "version": "12.0.0",
+  "name": "eslint-config-stylelint",
+  "version": "11.1.0",
   "description": "stylelint org's shareable config for eslint",
   "keywords": [
     "eslint",
@@ -8,7 +8,7 @@
   ],
   "author": "stylelint",
   "license": "MIT",
-  "repository": "stylelint/eslint-config",
+  "repository": "stylelint/eslint-config-stylelint",
   "main": "index.js",
   "files": [
     ".eslintrc.js"

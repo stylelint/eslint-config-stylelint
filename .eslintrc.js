@@ -8,7 +8,7 @@ module.exports = {
     es6: true,
     node: true,
   },
-  plugins: ["node", "sort-requires"],
+  plugins: ["eslint-comments", "jest", "node", "sort-requires"],
   extends: [
     "eslint:recommended",
     "plugin:eslint-comments/recommended",
