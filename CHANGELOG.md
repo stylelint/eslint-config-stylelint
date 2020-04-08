@@ -1,6 +1,6 @@
 # Changelog
 
-## 12.0.0
+## 12.0.1
 
 - Removed: `prefer-const`.
 - Changed: `ecmaVersion` to `2019`.
