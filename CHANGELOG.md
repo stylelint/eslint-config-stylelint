@@ -1,5 +1,9 @@
 # Changelog
 
+## 12.1.0
+
+- Changed: Bump `eslint-plugin-jest` from v23 to v24.
+
 ## 12.0.0
 
 - Removed: `prefer-const`.
