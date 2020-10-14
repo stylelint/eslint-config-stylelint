@@ -39,6 +39,7 @@ module.exports = {
     ],
     "no-implicit-coercion": "error",
     "no-lonely-if": "error",
+    "no-shadow": "error",
     "no-unneeded-ternary": "error",
     "no-unused-vars": [
       "error",
