@@ -1,5 +1,9 @@
 # Changelog
 
+## 12.2.0
+
+- Added: `no-shadow` rule.
+
 ## 12.1.0
 
 - Changed: Bump `eslint-plugin-jest` from v23 to v24.
