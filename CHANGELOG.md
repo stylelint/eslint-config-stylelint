@@ -2,7 +2,7 @@
 
 ## 12.2.0
 
-- Added: `no-shadow` rule. #99
+- Added: `no-shadow` rule.
 
 ## 12.1.0
 
