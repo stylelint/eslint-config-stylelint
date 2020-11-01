@@ -19,7 +19,7 @@
   "devDependencies": {
     "eslint": "^7.3.1",
     "jest": "^26.4.2",
-    "np": "^6.2.0"
+    "np": "^7.0.0"
   },
   "scripts": {
     "lint": "eslint .",
