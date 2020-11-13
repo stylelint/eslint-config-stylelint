@@ -30,7 +30,12 @@ module.exports = {
         allowParens: false,
       },
     ],
-    "no-console": "error",
+    "no-console": [
+      "error",
+      {
+        allow: ["warn", "error"],
+      },
+    ],
     "no-else-return": [
       "error",
       {
