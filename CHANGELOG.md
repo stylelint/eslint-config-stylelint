@@ -2,7 +2,7 @@
 
 ## 13.1.0
 
-- Changed: Add `allow` option to `no-console` rule.
+- Added: `allow` option to `no-console` rule.
 
 ## 13.0.0
 
