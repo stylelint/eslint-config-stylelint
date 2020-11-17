@@ -1,5 +1,9 @@
 # Changelog
 
+## 13.1.0
+
+- Changed: Add `allow` option to `no-console` rule.
+
 ## 13.0.0
 
 - Added: `no-shadow` rule.
