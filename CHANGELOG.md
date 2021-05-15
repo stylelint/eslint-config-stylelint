@@ -1,5 +1,9 @@
 # Changelog
 
+## Head
+
+- Fixed: `node/no-unsupported-feature` range.
+
 ## 13.1.0
 
 - Added: `allow` option to `no-console` rule.
