@@ -55,24 +55,9 @@ module.exports = {
     "no-use-before-define": ["error", "nofunc"],
     "no-useless-return": "error",
     "no-var": "error",
-    "node/no-unsupported-features/es-builtins": [
-      "error",
-      {
-        version: ">=10.18.0",
-      },
-    ],
-    "node/no-unsupported-features/es-syntax": [
-      "error",
-      {
-        version: ">=10.18.0",
-      },
-    ],
-    "node/no-unsupported-features/node-builtins": [
-      "error",
-      {
-        version: ">=10.18.0",
-      },
-    ],
+    "node/no-unsupported-features/es-builtins": "error",
+    "node/no-unsupported-features/es-syntax": "error",
+    "node/no-unsupported-features/node-builtins": "error",
     "object-shorthand": "error",
     "one-var": ["error", "never"],
     "operator-assignment": "error",
