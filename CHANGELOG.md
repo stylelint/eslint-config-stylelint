@@ -1,6 +1,6 @@
 # Changelog
 
-## Head
+## 13.1.1
 
 - Fixed: `node/no-unsupported-feature` range.
 
