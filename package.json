@@ -14,8 +14,8 @@
     ".eslintrc.js"
   ],
   "devDependencies": {
-    "eslint": "^7.26.0",
-    "jest": "^26.6.3",
+    "eslint": "^7.27.0",
+    "jest": "^27.0.3",
     "np": "^7.5.0"
   },
   "scripts": {
