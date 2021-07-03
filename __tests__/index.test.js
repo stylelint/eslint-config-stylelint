@@ -1,6 +1,7 @@
 "use strict";
 
-const config = require("../");
+// eslint-disable-next-line no-undef -- Keep backward compatibility with CommonJS.
+const config = require("../index");
 
 it("test basic properties of config", () => {
   expect(isObject(config.parserOptions)).toBeTruthy();
@@ -9,6 +10,7 @@ it("test basic properties of config", () => {
 });
 
 it("load config in ESLint to validate all rule syntax is correct", () => {
+  // eslint-disable-next-line no-undef -- Keep backward compatibility with CommonJS.
   const CLIEngine = require("eslint").CLIEngine;
 
   const cli = new CLIEngine({
