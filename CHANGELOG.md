@@ -1,5 +1,7 @@
 # Changelog
 
+## 14.0.0
+
 ## 13.1.1
 
 - Fixed: `node/no-unsupported-feature` range.
