@@ -115,9 +115,6 @@ module.exports = {
     "prefer-template": "error",
     "sort-imports": ["error", { allowSeparatedGroups: true }],
 
-    // Prefer code readability over a bit performance improvement.
-    "regexp/no-unused-capturing-group": "off",
-
     // Prefer code readability, e.g. `[0-9A-Za-z]`.
     "regexp/prefer-d": "off",
   },
