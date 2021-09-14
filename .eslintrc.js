@@ -15,6 +15,7 @@ module.exports = {
     "plugin:node/recommended",
     "plugin:jest/recommended",
     "plugin:jest/style",
+    "plugin:regexp/recommended",
     "prettier",
   ],
   rules: {
@@ -113,5 +114,8 @@ module.exports = {
     "prefer-template": "error",
     "sort-requires/sort-requires": "error",
     strict: ["error", "global"],
+
+    // Prefer code readability over a bit performance improvement.
+    "regexp/no-unused-capturing-group": "off",
   },
 };
