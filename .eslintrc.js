@@ -16,6 +16,7 @@ module.exports = {
     "plugin:node/recommended-module",
     "plugin:jest/recommended",
     "plugin:jest/style",
+    "plugin:regexp/recommended",
     "prettier",
   ],
   rules: {
@@ -113,5 +114,8 @@ module.exports = {
     "prefer-spread": "error",
     "prefer-template": "error",
     "sort-imports": ["error", { allowSeparatedGroups: true }],
+
+    // Prefer code readability, e.g. `[0-9A-Za-z]`.
+    "regexp/prefer-d": "off",
   },
 };
