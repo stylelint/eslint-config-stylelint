@@ -1,20 +1,22 @@
 "use strict";
 
+// eslint-disable-next-line no-undef -- Keep backward compatibility with CommonJS.
 module.exports = {
   parserOptions: {
     ecmaVersion: 2019,
+    sourceType: "module",
   },
   env: {
     es6: true,
     node: true,
   },
-  plugins: ["eslint-comments", "jest", "node", "sort-requires"],
   extends: [
     "eslint:recommended",
     "plugin:eslint-comments/recommended",
-    "plugin:node/recommended",
+    "plugin:node/recommended-module",
     "plugin:jest/recommended",
     "plugin:jest/style",
+    "plugin:regexp/recommended",
     "prettier",
   ],
   rules: {
@@ -111,7 +113,9 @@ module.exports = {
     "prefer-rest-params": "error",
     "prefer-spread": "error",
     "prefer-template": "error",
-    "sort-requires/sort-requires": "error",
-    strict: ["error", "global"],
+    "sort-imports": ["error", { allowSeparatedGroups: true }],
+
+    // Prefer code readability, e.g. `[0-9A-Za-z]`.
+    "regexp/prefer-d": "off",
   },
 };
