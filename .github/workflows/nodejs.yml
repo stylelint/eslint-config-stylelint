@@ -14,14 +14,13 @@ env:
 
 jobs:
   lint:
-    name: Lint on Node.js ${{ matrix.node }} and ${{ matrix.os }}
+    name: Lint on Node.js ${{ matrix.node }}
 
-    runs-on: ${{ matrix.os }}
+    runs-on: ubuntu-latest
 
     strategy:
       matrix:
         node: [12]
-        os: [ubuntu-latest]
 
     steps:
       - uses: actions/checkout@v2
