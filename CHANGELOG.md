@@ -2,6 +2,9 @@
 
 ## 14.0.0
 
+- Added: ESM support.
+- Removed: `eslint-plugin-sort-requires` plugin.
+
 ## 13.1.1
 
 - Fixed: `node/no-unsupported-feature` range.
