@@ -1,5 +1,10 @@
 # Changelog
 
+## 15.0.0
+
+- Changed: bump `eslint-plugin-jest` from v24 to v25.
+- Removed: `eslint-plugin-eslint-comments` plugin.
+
 ## 14.0.0
 
 - Added: ESM support.

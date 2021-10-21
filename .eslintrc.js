@@ -12,7 +12,6 @@ module.exports = {
   },
   extends: [
     "eslint:recommended",
-    "plugin:eslint-comments/recommended",
     "plugin:node/recommended-module",
     "plugin:jest/recommended",
     "plugin:jest/style",
@@ -23,7 +22,6 @@ module.exports = {
     "array-callback-return": "error",
     "dot-notation": "error",
     eqeqeq: ["error", "smart"],
-    "eslint-comments/no-unused-disable": "error",
     "func-name-matching": "error",
     "guard-for-in": "error",
     "no-confusing-arrow": [
