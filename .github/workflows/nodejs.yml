@@ -37,4 +37,4 @@ jobs:
     uses: stylelint/.github/.github/workflows/test.yml@reusable-workflow # TODO: Change to `@main`
     with:
       node-version: '["12", "14", "16", "18"]'
-      os: ubuntu-latest
+      os: '["ubuntu-latest"]'
