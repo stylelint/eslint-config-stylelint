@@ -1,5 +1,9 @@
 # Changelog
 
+## 15.1.0
+
+- Changed: bump `eslint-plugin-jest` from v25 to v26.
+
 ## 15.0.0
 
 - Changed: bump `eslint-plugin-jest` from v24 to v25.
