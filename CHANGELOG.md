@@ -1,5 +1,10 @@
 # Changelog
 
+## 16.0.0
+
+- Removed: support for Node.js v12 (due to breaking change in `eslint-plugin-jest`).
+- Changed: bump `eslint-plugin-jest` from v26 to v27.
+
 ## 15.1.0
 
 - Changed: bump `eslint-plugin-jest` from v25 to v26.
