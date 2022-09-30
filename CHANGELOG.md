@@ -1,5 +1,9 @@
 # Changelog
 
+## 16.1.0
+
+- Added: `func-names` rule.
+
 ## 16.0.0
 
 - Removed: support for Node.js v12 (due to breaking change in `eslint-plugin-jest`).
