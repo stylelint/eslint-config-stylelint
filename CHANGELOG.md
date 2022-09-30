@@ -1,6 +1,6 @@
 # Changelog
 
-## 16.1.0
+## 17.0.0
 
 - Added: `func-names` rule.
 
