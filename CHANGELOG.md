@@ -1,5 +1,9 @@
 # Changelog
 
+## 17.1.0
+
+- Changed: `parserOptions.ecmaVersion` from `2019` to `2020`.
+
 ## 17.0.0
 
 - Added: `func-names` rule.
