@@ -3,7 +3,7 @@
 // eslint-disable-next-line no-undef -- Keep backward compatibility with CommonJS.
 module.exports = {
   parserOptions: {
-    ecmaVersion: 2019,
+    ecmaVersion: 2020,
     sourceType: "module",
   },
   env: {
