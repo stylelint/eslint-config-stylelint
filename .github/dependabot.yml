@@ -1,18 +1,18 @@
 version: 2
 updates:
   - package-ecosystem: npm
-    directory: "/"
+    directory: '/'
     schedule:
       interval: monthly
     open-pull-requests-limit: 1
     versioning-strategy: increase
     labels:
-      - "pr: dependencies"
+      - 'pr: dependencies'
 
   - package-ecosystem: github-actions
-    directory: "/"
+    directory: '/'
     schedule:
       interval: monthly
     open-pull-requests-limit: 1
     labels:
-      - "pr: dependencies"
+      - 'pr: dependencies'
