@@ -11,7 +11,8 @@
   "author": "stylelint",
   "main": "index.js",
   "files": [
-    ".eslintrc.js"
+    "index.js",
+    "jest.js"
   ],
   "scripts": {
     "format": "prettier . --write",
