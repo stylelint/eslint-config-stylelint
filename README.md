@@ -23,7 +23,7 @@ Add this to your ESLint config:
 }
 ```
 
-### When using Jest
+### For Jest
 
 Install the plugin additionally:
 
