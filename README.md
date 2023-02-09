@@ -19,7 +19,7 @@ Add this to your ESLint config:
 
 ```json
 {
-  "extends": "stylelint"
+  "extends": ["stylelint"]
 }
 ```
 
@@ -31,11 +31,12 @@ Install the plugin additionally:
 $ npm install eslint-plugin-jest --save-dev
 ```
 
-Then, add this to your config:
+Then, update your config:
 
-```json
+```diff json
 {
-  "extends": "stylelint/jest"
+-  "extends": ["stylelint"]
++  "extends": ["stylelint", "stylelint/jest"]
 }
 ```
 

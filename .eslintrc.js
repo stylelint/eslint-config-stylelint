@@ -3,7 +3,7 @@
 module.exports = {
 	root: true,
 
-	extends: ['./jest.js'],
+	extends: ['./index.js', './jest.js'],
 
 	// TODO: Keep backward compatibility with CommonJS. We may delete after ESM migration.
 	globals: {
