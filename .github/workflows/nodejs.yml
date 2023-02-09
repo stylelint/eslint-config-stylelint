@@ -4,10 +4,10 @@ on:
   push:
     branches:
       - main
-      - "dependabot/**"
+      - 'dependabot/**'
   pull_request:
     branches:
-      - "**"
+      - '**'
 
 jobs:
   lint:
