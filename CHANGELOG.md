@@ -1,5 +1,24 @@
 # Changelog
 
+## 18.0.0
+
+- Removed: Jest rules from the default config.
+- Changed: `eslint-plugin-jest` to optional peer dependencies.
+- Added: Jest only config `"stylelint/jest"`.
+- Added: `eslint` to peer dependencies.
+
+Migration notice: if you want to continue Jest rules, you need to:
+
+- run `npm install eslint-plugin-jest --save-dev`
+- add `"stylelint/jest"` to `extends` in your ESlint config like this:
+
+```diff json
+{
+-  "extends": ["stylelint"]
++  "extends": ["stylelint", "stylelint/jest"]
+}
+```
+
 ## 17.1.0
 
 - Changed: `parserOptions.ecmaVersion` from `2019` to `2020`.
