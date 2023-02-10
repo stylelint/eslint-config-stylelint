@@ -6,8 +6,7 @@ on:
       - main
       - 'dependabot/**'
   pull_request:
-    branches:
-      - '**'
+  merge_group:
 
 jobs:
   lint:
