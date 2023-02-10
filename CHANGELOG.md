@@ -4,7 +4,7 @@
 
 - Removed: Jest rules from the default config.
 - Changed: `eslint-plugin-jest` to optional peer dependencies.
-- Added: Jest only config.
+- Added: Jest only config `"stylelint/jest"`.
 - Added: `eslint` to peer dependencies.
 
 Migration notice: if you want to continue Jest rules, you need to:
