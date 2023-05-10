@@ -10,8 +10,9 @@ module.exports = {
 		node: true,
 	},
 	extends: [
+		// `prettier` must be last.
 		'eslint:recommended',
-		'plugin:node/recommended-module',
+		'plugin:n/recommended',
 		'plugin:regexp/recommended',
 		'prettier',
 	],
@@ -53,9 +54,6 @@ module.exports = {
 		'no-use-before-define': ['error', 'nofunc'],
 		'no-useless-return': 'error',
 		'no-var': 'error',
-		'node/no-unsupported-features/es-builtins': 'error',
-		'node/no-unsupported-features/es-syntax': 'error',
-		'node/no-unsupported-features/node-builtins': 'error',
 		'object-shorthand': 'error',
 		'one-var': ['error', 'never'],
 		'operator-assignment': 'error',
