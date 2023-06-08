@@ -1,5 +1,10 @@
 # Changelog
 
+## 19.0.0
+
+- Changed: migrate from `eslint-plugin-node` to `eslint-plugin-n`.
+- Changed: `parserOptions.ecmaVersion` from `2020` to `2021`.
+
 ## 18.0.0
 
 - Removed: Jest rules from the default config.
@@ -61,7 +66,7 @@ Migration notice: if you want to continue Jest rules, you need to:
 
 ## 12.1.0
 
-- Changed: Bump `eslint-plugin-jest` from v23 to v24.
+- Changed: bump `eslint-plugin-jest` from v23 to v24.
 
 ## 12.0.0
 
@@ -73,7 +78,7 @@ Migration notice: if you want to continue Jest rules, you need to:
 
 ## 11.1.0
 
-- Fixed: Add the `no-console` rule that was removed from `eslint/recommended` in ESLint v6.
+- Fixed: add the `no-console` rule that was removed from `eslint/recommended` in ESLint v6.
 
 ## 11.0.0
 
