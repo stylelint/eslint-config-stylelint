@@ -5,6 +5,15 @@
 - Changed: migrate from `eslint-plugin-node` to `eslint-plugin-n`.
 - Changed: `parserOptions.ecmaVersion` from `2020` to `2021`.
 
+Migration note: You may need to rewrite rule names for `eslint-plugin-node` like this:
+
+```diff js
+-// eslint-disable-next-line node/no-extraneous-import
++// eslint-disable-next-line n/no-extraneous-import
+```
+
+See also the [`eslint-plugin-n` document](https://github.com/eslint-community/eslint-plugin-n#readme).
+
 ## 18.0.0
 
 - Removed: Jest rules from the default config.
@@ -12,7 +21,7 @@
 - Added: Jest only config `"stylelint/jest"`.
 - Added: `eslint` to peer dependencies.
 
-Migration notice: if you want to continue Jest rules, you need to:
+Migration note: if you want to continue Jest rules, you need to:
 
 - run `npm install eslint-plugin-jest --save-dev`
 - add `"stylelint/jest"` to `extends` in your ESlint config like this:
