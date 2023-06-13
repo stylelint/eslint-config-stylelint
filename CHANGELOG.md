@@ -2,6 +2,7 @@
 
 ## 19.0.0
 
+- Removed: Node.js 14 support.
 - Changed: migrate from `eslint-plugin-node` to `eslint-plugin-n`.
 - Changed: `parserOptions.ecmaVersion` from `2020` to `2021`.
 
