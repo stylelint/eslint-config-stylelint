@@ -112,4 +112,13 @@ module.exports = {
 		// Prefer code readability, e.g. `[0-9A-Za-z]`.
 		'regexp/prefer-d': 'off',
 	},
+	overrides: [
+		{
+			files: ['*.mjs'],
+			rules: {
+				'no-restricted-globals': ['error', 'module', 'require'],
+				strict: ['error', 'never'],
+			},
+		},
+	],
 };

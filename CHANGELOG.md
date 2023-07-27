@@ -1,5 +1,9 @@
 # Changelog
 
+## Head
+
+- Added: rules for ESM files.
+
 ## 19.0.0
 
 - Removed: Node.js 14 support.
