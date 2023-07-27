@@ -1,6 +1,6 @@
 # Changelog
 
-## Head
+## 19.1.0
 
 - Added: rules for ESM files.
 
