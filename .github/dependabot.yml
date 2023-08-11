@@ -8,6 +8,9 @@ updates:
     versioning-strategy: increase
     labels:
       - 'pr: dependencies'
+    groups:
+      development-dependencies:
+        dependency-type: 'development'
 
   - package-ecosystem: github-actions
     directory: '/'
