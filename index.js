@@ -109,6 +109,9 @@ module.exports = {
 		'prefer-template': 'error',
 		'sort-imports': ['error', { allowSeparatedGroups: true }],
 
+		// Avoid a global variable unique to Node.js.
+		'n/prefer-global/process': ['error', 'never'],
+
 		// Prefer code readability, e.g. `[0-9A-Za-z]`.
 		'regexp/prefer-d': 'off',
 	},

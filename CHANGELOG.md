@@ -1,5 +1,9 @@
 # Changelog
 
+## Head
+
+- Added: `n/prefer-global/process` rule.
+
 ## 19.1.0
 
 - Added: rules for ESM files.
