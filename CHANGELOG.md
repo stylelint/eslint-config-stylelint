@@ -1,6 +1,6 @@
 # Changelog
 
-## Head
+## 20.0.0
 
 - Added: `n/prefer-global/process` rule.
 
