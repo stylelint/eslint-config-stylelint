@@ -1,5 +1,9 @@
 # Changelog
 
+## Head
+
+- Removed: Node.js 16 support.
+
 ## 20.0.0
 
 - Added: `n/prefer-global/process` rule.
