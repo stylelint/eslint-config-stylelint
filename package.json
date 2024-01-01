@@ -29,7 +29,7 @@
   "dependencies": {
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-n": "^16.3.1",
-    "eslint-plugin-regexp": "^2.1.1"
+    "eslint-plugin-regexp": "^2.1.2"
   },
   "devDependencies": {
     "@stylelint/prettier-config": "^3.0.0",
