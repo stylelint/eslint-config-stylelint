@@ -4,6 +4,7 @@
 
 - Removed: Node.js 16 support.
 - Changed: bump `eslint-plugin-regexp` from v1 to v2.
+- Changed: `parserOptions.ecmaVersion` from `2021` to `2023`.
 
 ## 20.0.0
 
