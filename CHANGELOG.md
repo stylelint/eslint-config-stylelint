@@ -1,6 +1,6 @@
 # Changelog
 
-## Head
+## 21.0.0
 
 - Removed: Node.js 16 support.
 - Changed: bump `eslint-plugin-regexp` from v1 to v2.
