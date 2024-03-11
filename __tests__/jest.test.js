@@ -1,17 +1,26 @@
 'use strict';
 
+const test = require('node:test');
+const assert = require('node:assert/strict');
+
 const { ESLint } = require('eslint');
 
 const config = require('../jest');
 const { isObject } = require('./helper');
 
-test('basic properties of config', () => {
-	expect(isObject(config.extends)).toBeTruthy();
+test('basic properties of jest config', () => {
+	assert(isObject(config.extends));
 });
 
-test('load config in ESLint to validate all rule syntax is correct', async () => {
-	const eslint = new ESLint({ baseConfig: config, useEslintrc: false });
+test('load jest config in ESLint to validate all rule syntax is correct', async () => {
+	const baseConfig = {
+		...config,
+		settings: {
+			jest: { version: 27 },
+		},
+	};
+	const eslint = new ESLint({ baseConfig, useEslintrc: false });
 	const results = await eslint.lintText('test("foo");');
 
-	expect(results).toBeTruthy();
+	assert(results);
 });
