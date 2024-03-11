@@ -13,7 +13,13 @@ test('basic properties of jest config', () => {
 });
 
 test('load jest config in ESLint to validate all rule syntax is correct', async () => {
-	const eslint = new ESLint({ baseConfig: config, useEslintrc: false });
+	const baseConfig = {
+		...config,
+		settings: {
+			jest: { version: 27 },
+		},
+	};
+	const eslint = new ESLint({ baseConfig, useEslintrc: false });
 	const results = await eslint.lintText('test("foo");');
 
 	assert(results);
