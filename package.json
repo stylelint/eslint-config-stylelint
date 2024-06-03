@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "@stylelint/prettier-config": "^3.0.0",
-    "eslint": "^8.57.0",
+    "eslint": "^9.4.0",
     "eslint-plugin-jest": "^28.3.0",
     "np": "^10.0.5",
     "prettier": "^3.2.5"
