@@ -1,5 +1,9 @@
 # Changelog
 
+## Head
+
+- Fixed: missing `funding` field in `package.json`.
+
 ## 21.0.0
 
 - Removed: Node.js 16 support.
