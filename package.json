@@ -7,6 +7,16 @@
     "eslintconfig"
   ],
   "repository": "stylelint/eslint-config-stylelint",
+  "funding": [
+    {
+      "type": "opencollective",
+      "url": "https://opencollective.com/stylelint"
+    },
+    {
+      "type": "github",
+      "url": "https://github.com/sponsors/stylelint"
+    }
+  ],
   "license": "MIT",
   "author": "stylelint",
   "main": "index.js",
