@@ -2,6 +2,7 @@
 
 ## Head
 
+- Removed: `no-confusing-arrow` because of the deprecation of formatting rules.
 - Fixed: missing `funding` field in `package.json`.
 
 ## 21.0.0
