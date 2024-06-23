@@ -2,6 +2,7 @@
 
 ## Head
 
+- Changed: replace deprecated `padding-line-between-statements` with `@stylistic/js/padding-line-between-statements`.
 - Fixed: missing `funding` field in `package.json`.
 
 ## 21.0.0
