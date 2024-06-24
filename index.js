@@ -16,6 +16,7 @@ module.exports = {
 		'plugin:regexp/recommended',
 		'prettier',
 	],
+	plugins: ['@stylistic/js'],
 	rules: {
 		'array-callback-return': 'error',
 		'dot-notation': 'error',
@@ -51,7 +52,16 @@ module.exports = {
 		'object-shorthand': 'error',
 		'one-var': ['error', 'never'],
 		'operator-assignment': 'error',
-		'padding-line-between-statements': [
+		'prefer-arrow-callback': 'error',
+		'prefer-object-spread': 'error',
+		'prefer-regex-literals': 'error',
+		'prefer-rest-params': 'error',
+		'prefer-spread': 'error',
+		'prefer-template': 'error',
+		'sort-imports': ['error', { allowSeparatedGroups: true }],
+
+		// Migrated from the deprecated built-in 'padding-line-between-statements'
+		'@stylistic/js/padding-line-between-statements': [
 			'error',
 			// Require blank lines after all directive prologues (e. g. 'use strict')
 			{
@@ -95,13 +105,6 @@ module.exports = {
 				next: '*',
 			},
 		],
-		'prefer-arrow-callback': 'error',
-		'prefer-object-spread': 'error',
-		'prefer-regex-literals': 'error',
-		'prefer-rest-params': 'error',
-		'prefer-spread': 'error',
-		'prefer-template': 'error',
-		'sort-imports': ['error', { allowSeparatedGroups: true }],
 
 		// Avoid a global variable unique to Node.js.
 		'n/prefer-global/process': ['error', 'never'],
