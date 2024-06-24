@@ -3,6 +3,8 @@
 ## Head
 
 - Changed: replace deprecated `padding-line-between-statements` with `@stylistic/js/padding-line-between-statements`.
+- Changed: bump `eslint-plugin-jest` from v27 to v28.
+- Changed: bump `eslint-plugin-n` from v16 to v17.
 - Fixed: missing `funding` field in `package.json`.
 
 ## 21.0.0
