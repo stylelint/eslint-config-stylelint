@@ -43,8 +43,8 @@
     "@stylelint/prettier-config": "^3.0.0",
     "eslint": "^8.57.0",
     "eslint-plugin-jest": "^28.3.0",
-    "np": "^10.0.5",
-    "prettier": "^3.2.5"
+    "np": "^10.0.6",
+    "prettier": "^3.3.2"
   },
   "peerDependencies": {
     "eslint": ">=8.33.0",
