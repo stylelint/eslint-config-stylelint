@@ -24,12 +24,6 @@ module.exports = {
 		'func-name-matching': 'error',
 		'func-names': ['error', 'as-needed'],
 		'guard-for-in': 'error',
-		'no-confusing-arrow': [
-			'error',
-			{
-				allowParens: false,
-			},
-		],
 		'no-console': [
 			'error',
 			{
