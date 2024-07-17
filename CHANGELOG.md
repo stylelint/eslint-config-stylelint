@@ -1,6 +1,6 @@
 # Changelog
 
-## Head
+## 22.0.0
 
 - Removed: `no-confusing-arrow` because of the deprecation of formatting rules.
 - Changed: replace deprecated `padding-line-between-statements` with `@stylistic/js/padding-line-between-statements`.
