@@ -34,7 +34,7 @@
   },
   "prettier": "@stylelint/prettier-config",
   "dependencies": {
-    "@stylistic/eslint-plugin-js": "^2.3.0",
+    "@stylistic/eslint-plugin-js": "^2.6.1",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-n": "^17.9.0",
     "eslint-plugin-regexp": "^2.6.0"
