@@ -1,6 +1,6 @@
 'use strict';
 
-/* eslint-disable n/no-unsupported-features/node-builtins */
+// eslint-disable-next-line n/no-unsupported-features/node-builtins
 const test = require('node:test');
 const assert = require('node:assert/strict');
 
