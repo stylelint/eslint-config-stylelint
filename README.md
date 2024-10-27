@@ -17,10 +17,10 @@ $ npm install eslint-config-stylelint --save-dev
 
 Add this to your ESLint config:
 
-```json
-{
-  "extends": ["stylelint"]
-}
+```js
+import stylelintConfig from "eslint-config-stylelint";
+
+export default [...stylelintConfig];
 ```
 
 ### For Jest
@@ -33,11 +33,11 @@ $ npm install eslint-plugin-jest --save-dev
 
 Then, update your config:
 
-```diff json
-{
--  "extends": ["stylelint"]
-+  "extends": ["stylelint", "stylelint/jest"]
-}
+```js
+import stylelintConfig from "eslint-config-stylelint";
+import stylelintJestConfig from "eslint-config-stylelint/jest.js";
+
+export default [...stylelintConfig, ...stylelintJestConfig];
 ```
 
 ## [Changelog](CHANGELOG.md)
