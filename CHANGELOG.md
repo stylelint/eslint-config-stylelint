@@ -1,5 +1,11 @@
 # Changelog
 
+## Head
+
+- Removed: Node.js less than 18.18 support
+- Removed: ESLint 8.x support
+- Added: ESLint 9.x support
+
 ## 22.0.0
 
 - Removed: `no-confusing-arrow` because of the deprecation of formatting rules.
