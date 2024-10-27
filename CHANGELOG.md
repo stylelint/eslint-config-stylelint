@@ -1,6 +1,6 @@
 # Changelog
 
-## Head
+## 23.0.0
 
 - Removed: Node.js less than 18.18 support
 - Removed: ESLint 8.x support
