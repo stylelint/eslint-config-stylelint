@@ -1,7 +1,7 @@
 'use strict';
 
 const globals = require('globals');
-const js = require('@eslint/js');
+const js = require('@eslint/js'); // eslint-disable-line n/no-extraneous-require
 const nPlugin = require('eslint-plugin-n');
 const regexpPlugin = require('eslint-plugin-regexp');
 const stylisticPlugin = require('@stylistic/eslint-plugin');
