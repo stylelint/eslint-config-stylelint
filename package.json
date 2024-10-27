@@ -19,6 +19,10 @@
   ],
   "license": "MIT",
   "author": "stylelint",
+  "exports": {
+    ".": "./index.js",
+    "./jest": "./jest.js"
+  },
   "main": "index.js",
   "files": [
     "index.js",
@@ -28,27 +32,25 @@
     "format": "prettier . --write",
     "lint": "eslint . && prettier . --check",
     "release": "np --no-release-draft",
-    "pretest": "npm run lint",
     "test": "node --test",
     "watch": "node --test --watch"
   },
   "prettier": "@stylelint/prettier-config",
   "dependencies": {
-    "@stylistic/eslint-plugin-js": "^2.8.0",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-n": "^17.10.3",
-    "eslint-plugin-regexp": "^2.6.0"
+    "@stylistic/eslint-plugin": "^2.9.0",
+    "eslint-plugin-n": "^17.11.1",
+    "eslint-plugin-regexp": "^2.6.0",
+    "globals": "^15.11.0"
   },
   "devDependencies": {
     "@stylelint/prettier-config": "^3.0.0",
-    "eslint": "^8.57.0",
-    "eslint-plugin-jest": "^28.8.1",
+    "eslint": "^9.13.0",
     "np": "^10.0.7",
     "prettier": "^3.3.3"
   },
   "peerDependencies": {
-    "eslint": ">=8.33.0",
-    "eslint-plugin-jest": ">=28.2.0"
+    "eslint": ">=9.13.0",
+    "eslint-plugin-jest": ">=28.8.3"
   },
   "peerDependenciesMeta": {
     "eslint-plugin-jest": {
@@ -56,7 +58,7 @@
     }
   },
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=18.18"
   },
   "publishConfig": {
     "access": "public"

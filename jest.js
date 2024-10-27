@@ -1,5 +1,5 @@
 'use strict';
 
-module.exports = {
-	extends: ['plugin:jest/recommended', 'plugin:jest/style'],
-};
+const jest = require('eslint-plugin-jest');
+
+module.exports = [jest.configs['flat/recommended'], jest.configs['flat/style']];

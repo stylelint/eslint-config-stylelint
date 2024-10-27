@@ -6,17 +6,7 @@ const assert = require('node:assert/strict');
 
 const { ESLint } = require('eslint');
 
-const config = require('../index');
-const { isObject } = require('./helper');
-
-const newESLint = () => new ESLint({ baseConfig: config, useEslintrc: false, fix: true });
-
-test('basic properties of config', () => {
-	assert(isObject(config.parserOptions));
-	assert(isObject(config.env));
-	assert(isObject(config.rules));
-	assert(Array.isArray(config.extends));
-});
+const newESLint = () => new ESLint({ fix: true });
 
 test('load config in ESLint to validate all rule syntax is correct', async () => {
 	const results = await newESLint().lintText('var foo\n');
