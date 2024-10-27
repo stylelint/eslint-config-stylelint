@@ -35,7 +35,7 @@ Then, update your config:
 
 ```js
 import stylelintConfig from "eslint-config-stylelint";
-import stylelintJestConfig from "eslint-config-stylelint/jest.js";
+import stylelintJestConfig from "eslint-config-stylelint/jest";
 
 export default [...stylelintConfig, ...stylelintJestConfig];
 ```
