@@ -45,8 +45,8 @@
   "devDependencies": {
     "@stylelint/prettier-config": "^3.0.0",
     "eslint": "^9.13.0",
-    "np": "^10.0.7",
-    "prettier": "^3.3.3"
+    "np": "^10.1.0",
+    "prettier": "^3.4.1"
   },
   "peerDependencies": {
     "eslint": ">=9.13.0",
