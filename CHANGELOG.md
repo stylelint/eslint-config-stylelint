@@ -1,5 +1,11 @@
 # Changelog
 
+## 24.0.0
+
+- Changed: `eslint-plugin-n` config from `flag/recommended-script` to `flag/recommended` for both CommonJS and ES modules.
+- Changed: bump `@stylistic/eslint-plugin` from v2 to v4.
+- Changed: bump `globals` from v15 to v16.
+
 ## 23.0.0
 
 - Removed: Node.js less than 18.18 support
