@@ -22,5 +22,8 @@ test('load jest config in ESLint to validate all rule syntax is correct', async 
 
 	assert(results);
 	assert.equal(results.length, 1);
-	assert.deepEqual(results[0].messages.map(m => m.ruleId), ['jest/no-disabled-tests', 'jest/expect-expect']);
+	assert.deepEqual(
+		results[0].messages.map((m) => m.ruleId),
+		['jest/no-disabled-tests', 'jest/expect-expect'],
+	);
 });
