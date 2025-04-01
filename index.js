@@ -8,7 +8,7 @@ const stylisticPlugin = require('@stylistic/eslint-plugin');
 
 module.exports = [
 	js.configs.recommended,
-	nPlugin.configs['flat/recommended-script'],
+	nPlugin.configs['flat/recommended'],
 	regexpPlugin.configs['flat/recommended'],
 	{
 		plugins: {
