@@ -9,7 +9,7 @@ updates:
     labels:
       - 'pr: dependencies'
     groups:
-      development-dependencies:
+      dev-deps:
         dependency-type: 'development'
         exclude-patterns: ['eslint', 'eslint-*']
 
