@@ -1,5 +1,10 @@
 # Changelog
 
+## 25.0.0
+
+- Changed: bump `@stylistic/eslint-plugin` from v4 to v5.
+- Changed: bump `eslint-plugin-jest` from v28 to v29.
+
 ## 24.0.0
 
 - Changed: `eslint-plugin-n` config from `flag/recommended-script` to `flag/recommended` for both CommonJS and ES modules.
