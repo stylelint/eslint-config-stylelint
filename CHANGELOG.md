@@ -1,5 +1,9 @@
 # Changelog
 
+## 25.0.1
+
+- Fixed: npm package publishing with trusted publisher.
+
 ## 25.0.0
 
 - Changed: bump `@stylistic/eslint-plugin` from v4 to v5.
