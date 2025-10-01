@@ -9,12 +9,12 @@ on:
 
 jobs:
   lint:
-    uses: stylelint/.github/.github/workflows/lint.yml@5c1fac886fb5f8f74e29e133f36d242770d03ed3 # main
+    uses: stylelint/.github/.github/workflows/lint.yml@45666ef076bb454406bde671ade1f0f852eb70cc # main
     permissions:
       contents: read
 
   test:
-    uses: stylelint/.github/.github/workflows/test.yml@5c1fac886fb5f8f74e29e133f36d242770d03ed3 # main
+    uses: stylelint/.github/.github/workflows/test.yml@45666ef076bb454406bde671ade1f0f852eb70cc # main
     with:
       node-version: '["lts/*"]'
     permissions:
