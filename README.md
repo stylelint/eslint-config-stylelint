@@ -9,8 +9,8 @@ For consistent JavaScript across Stylelint's repos.
 
 ## Installation
 
-```console
-$ npm install eslint-config-stylelint --save-dev
+```shell
+npm install eslint-config-stylelint --save-dev
 ```
 
 ## Usage
@@ -27,8 +27,8 @@ export default [...stylelintConfig];
 
 Install the plugin additionally:
 
-```console
-$ npm install eslint-plugin-jest --save-dev
+```shell
+npm install eslint-plugin-jest --save-dev
 ```
 
 Then, update your config:
