@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- Added: `no-duplicate-imports` rule.
+
 ## 25.0.1
 
 - Fixed: npm package publishing with trusted publisher.

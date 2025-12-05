@@ -43,6 +43,7 @@ module.exports = [
 					allowElseIf: false,
 				},
 			],
+			'no-duplicate-imports': 'error',
 			'no-implicit-coercion': 'error',
 			'no-lonely-if': 'error',
 			'no-shadow': 'error',
