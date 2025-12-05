@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 26.0.0
 
 - Removed: support for Node.js less than 20.19.0.
 - Changed: become a pure ESM package.
