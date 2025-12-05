@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+- Changed: `languageOptions.ecmaVersion` from `2023` to `2025`.
 - Added: `no-duplicate-imports` rule.
 
 ## 25.0.1
