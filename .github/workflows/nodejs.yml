@@ -6,6 +6,9 @@ on:
       - main
   pull_request:
 
+env:
+  npm_config_engine_strict: true
+
 jobs:
   lint:
     uses: stylelint/.github/.github/workflows/call-lint.yml@f34faf02df201c8c204df4ae2543523ad54ceb07 # 0.3.1
