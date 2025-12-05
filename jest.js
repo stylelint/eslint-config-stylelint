@@ -1,5 +1,3 @@
-'use strict';
+import jest from 'eslint-plugin-jest';
 
-const jest = require('eslint-plugin-jest');
-
-module.exports = [jest.configs['flat/recommended'], jest.configs['flat/style']];
+export default [jest.configs['flat/recommended'], jest.configs['flat/style']];

@@ -1,12 +1,10 @@
-'use strict';
+import globals from 'globals';
+import js from '@eslint/js'; // eslint-disable-line n/no-extraneous-import
+import nPlugin from 'eslint-plugin-n';
+import regexpPlugin from 'eslint-plugin-regexp';
+import stylisticPlugin from '@stylistic/eslint-plugin';
 
-const globals = require('globals');
-const js = require('@eslint/js'); // eslint-disable-line n/no-extraneous-require
-const nPlugin = require('eslint-plugin-n');
-const regexpPlugin = require('eslint-plugin-regexp');
-const stylisticPlugin = require('@stylistic/eslint-plugin');
-
-module.exports = [
+export default [
 	js.configs.recommended,
 	nPlugin.configs['flat/recommended'],
 	regexpPlugin.configs['flat/recommended'],
