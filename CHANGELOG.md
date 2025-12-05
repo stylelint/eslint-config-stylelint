@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Removed: support for Node.js less than 20.19.0.
+- Changed: become a pure ESM package.
 - Changed: `languageOptions.ecmaVersion` from `2023` to `2025`.
 - Added: `no-duplicate-imports` rule.
 

@@ -19,11 +19,11 @@
   ],
   "license": "MIT",
   "author": "stylelint",
+  "type": "module",
   "exports": {
     ".": "./index.js",
     "./jest": "./jest.js"
   },
-  "main": "index.js",
   "files": [
     "index.js",
     "jest.js"
@@ -57,7 +57,7 @@
     }
   },
   "engines": {
-    "node": ">=18.18"
+    "node": ">=20.19.0"
   },
   "publishConfig": {
     "access": "public"

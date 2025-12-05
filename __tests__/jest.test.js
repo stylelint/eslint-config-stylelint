@@ -1,12 +1,9 @@
-'use strict';
+import assert from 'node:assert/strict';
+import test from 'node:test';
 
-// eslint-disable-next-line n/no-unsupported-features/node-builtins
-const test = require('node:test');
-const assert = require('node:assert/strict');
+import { ESLint } from 'eslint';
 
-const { ESLint } = require('eslint');
-
-const config = require('../jest');
+import config from '../jest.js';
 
 test('load jest config in ESLint to validate all rule syntax is correct', async () => {
 	const baseConfig = [
