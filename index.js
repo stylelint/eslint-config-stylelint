@@ -59,6 +59,7 @@ export default [
 			'one-var': ['error', 'never'],
 			'operator-assignment': 'error',
 			'prefer-arrow-callback': 'error',
+			'prefer-const': 'error',
 			'prefer-object-spread': 'error',
 			'prefer-regex-literals': 'error',
 			'prefer-rest-params': 'error',
