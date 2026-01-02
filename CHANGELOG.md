@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 26.1.0
 
 - Added: `prefer-const` rule.
 
