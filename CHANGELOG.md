@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- Added: `prefer-const` rule.
+
 ## 26.0.0
 
 - Removed: support for Node.js less than 20.19.0.
