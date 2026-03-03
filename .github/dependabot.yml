@@ -12,6 +12,8 @@ updates:
       dev-deps:
         dependency-type: 'development'
         exclude-patterns: ['eslint', 'eslint-*']
+      eslint:
+        patterns: ['eslint', '@eslint/*']
     cooldown:
       default-days: 7
 

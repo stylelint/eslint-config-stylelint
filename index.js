@@ -1,5 +1,5 @@
 import globals from 'globals';
-import js from '@eslint/js'; // eslint-disable-line n/no-extraneous-import
+import js from '@eslint/js';
 import nPlugin from 'eslint-plugin-n';
 import regexpPlugin from 'eslint-plugin-regexp';
 import stylisticPlugin from '@stylistic/eslint-plugin';
