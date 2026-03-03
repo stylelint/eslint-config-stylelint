@@ -1,5 +1,13 @@
 # Changelog
 
+## 27.0.0
+
+- Removed: ESLint 9.x support.
+- Changed: bump `eslint-plugin-regexp` from v2 to v3.
+- Changed: bump `globals` from v16 to v17.
+- Added: ESLint 10.x support.
+- Added: `@eslint/js` dependency.
+
 ## 26.1.0
 
 - Added: `prefer-const` rule.
@@ -28,9 +36,9 @@
 
 ## 23.0.0
 
-- Removed: Node.js less than 18.18 support
-- Removed: ESLint 8.x support
-- Added: ESLint 9.x support
+- Removed: Node.js less than 18.18 support.
+- Removed: ESLint 8.x support.
+- Added: ESLint 9.x support.
 
 ## 22.0.0
 
@@ -154,16 +162,16 @@ Migration note: if you want to continue Jest rules, you need to:
 
 ## 9.0.0
 
-- Added: `jest/no-alias-methods` Jest rule. #56
-- Added: `jest/prefer-to-be-null` Jest rule. #56
-- Added: `jest/prefer-to-be-undefined` Jest rule. #56
-- Added: `jest/prefer-to-contain` Jest rule. #56
-- Added: `jest/valid-expect-in-promise` Jest rule. #56
-- Added: `padding-line-between-statements` rule. #55
+- Added: `jest/no-alias-methods` rule.
+- Added: `jest/prefer-to-be-null` rule.
+- Added: `jest/prefer-to-be-undefined` rule.
+- Added: `jest/prefer-to-contain` rule.
+- Added: `jest/valid-expect-in-promise` rule.
+- Added: `padding-line-between-statements` rule.
 
 ## 8.3.0
 
-- Changed: `eslint-plugin-jest` rules to `error`
+- Changed: `eslint-plugin-jest` rules to `error`.
 
 ## 8.2.0
 
