@@ -40,7 +40,7 @@
     "@stylistic/eslint-plugin": "^5.9.0",
     "eslint-plugin-n": "^17.24.0",
     "eslint-plugin-regexp": "^3.0.0",
-    "globals": "^17.3.0"
+    "globals": "^17.4.0"
   },
   "devDependencies": {
     "@stylelint/prettier-config": "^4.0.0",
