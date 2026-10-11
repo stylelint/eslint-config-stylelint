@@ -1,5 +1,9 @@
 # Changelog
 
+## 28.0.0
+
+- Changed: bump `eslint-plugin-regexp` from v17 to v18.
+
 ## 27.0.0
 
 - Removed: ESLint 9.x support.
