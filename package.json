@@ -60,6 +60,11 @@
   "engines": {
     "node": ">=20.19.0"
   },
+  "devEngines": {
+    "packageManager": {
+      "name": "npm"
+    }
+  },
   "publishConfig": {
     "access": "public"
   }
